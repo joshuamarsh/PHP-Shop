@@ -1,0 +1,1020 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-se;
+}
+input, textarea {
+    padding: 5px 15px;F
+}
+header{
+	width: 100%;
+	background-color: #1D2226;
+}
+ul{
+	list-style-type: none;
+}
+/*header*/
+.header_upper{
+	border-bottom: 2px solid #8c4605;
+	padding-top: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+	width: calc(100% - 90px);
+	height: 65px;
+}
+.logo{
+	height: 60px;
+	width: 359px;
+	margin-right: 0px;
+	float: left;
+}
+.logoimg{
+	width: 290px;
+	height: 50px;
+}
+.loginbtn{
+	margin-top: 17px;
+	color: #c9c9c9;
+	float: right;
+	position: relative;
+}
+.header_lower{
+	box-sizing: border-box;
+	width: 100%;
+}
+/*Navigation Bar*/
+.nav_menu{
+	margin: 0 auto;
+	height: 65px;
+	display: table;
+}
+.nav_item:hover ul {display: block;}
+
+
+.nav_item ul{
+    display: none;
+	text-align: left;
+	width: 225px;
+	background-color: #fff;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 999999;
+	padding: 20px;
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.2);
+}
+.nav_item ul li a{
+	font-size: 0.9em;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	line-height: 1.3;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	color: #0093d8;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.nav_item{
+    cursor: pointer;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+.nav_title{
+    max-width: 100px;
+    height: 65px;
+    padding: 0 11px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+}
+/*login page*/
+.loginmargin{
+	max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background: #FFFFFF;
+    padding-bottom: 20px;
+	height: 100%;
+}
+.nav_out{
+}
+.loginbox{
+	border-radius: 25px;
+	border: 1px solid #00b7ff;
+	background-color: #e8e8e8;
+	max-width: 500px;
+	padding: 40px;
+	margin: 100px auto 0 auto;
+}
+.loginlbl{
+	text-align: center;
+	width: 100%;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+#registerfirstname{
+	box-sizing: border-box;
+	margin-top: 20px;
+	width: calc(50% - 10px);
+	height: 45px;
+}
+#registersecondname{
+	box-sizing: border-box;
+	margin-top: 20px;
+	width: calc(50% - 10px);
+	height: 45px;
+	float: right;
+}
+#loginemail, #registeremail{
+	box-sizing: border-box;
+	margin-top: 20px;
+	width: 100%;
+	height: 45px;
+}
+#loginpassword, #registerpassword{
+	box-sizing: border-box;
+	margin-top: 20px;
+	width: 100%;
+	height: 45px;
+	-webkit-text-security: disc !important;
+}
+#loginbtn, #registerbtn{
+	width: 100%;
+	background-color: #00b7ff;
+	color: #fff;
+	height: 45px;
+	margin-top: 20px;
+	border: 0;
+	cursor: pointer;
+}
+.checkoutbtn{
+	display: block;
+	border-radius: 25px;
+	width: 100%;
+	background-color: #00b7ff;
+	color: #fff;
+	height: 43px;
+	margin-top: 20px;
+	border: 0;
+	cursor: pointer;
+	text-align: center;
+	line-height: 42px;
+	text-decoration: none;
+}
+#checkoutbtn:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+#completeorderbtn{
+	margin: 0 auto;
+	display: block;
+	border-radius: 25px;
+	width: 30%;
+	background-color: #00b7ff;
+	color: #fff;
+	height: 43px;
+	border: 0;
+	cursor: pointer;
+	text-align: center;
+	line-height: 37px;
+	text-decoration: none;
+}
+#completeorderbtn:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+#forgotpasswordlbl{
+	color: #00b7ff;
+}
+#registerlbl{
+	color: #00b7ff;
+}
+#registererror{
+    
+}
+#displayname{
+	margin-top: 10px;
+	color: #c9c9c9;
+	float: right;
+}
+#logoutbtn{
+	color: #00b7ff;
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+	font-size: 11px;
+}
+#accountbtn{
+    color: #00b7ff;
+	position: absolute;
+	bottom: 20px;
+	right: 44px;
+	font-size: 11px;
+}
+#headerinfo{
+	float: right;
+	position: relative;
+	height: 100%;
+	white-space: nowrap;
+}
+#errorbox{
+	display: none;
+	padding: 13px;
+	color: #fff;
+	background-color: #c43b19;
+	width: 100%;
+	text-align:center;
+	margin-top: 40px;
+	box-sizing: border-box;
+}
+.pagecontent{
+	max-width: 1241px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	background: #f6f6f6;
+	display: flex;
+}
+.checkoutcontent{
+    padding-top: 35px;
+    max-width: 1241px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	background: #f6f6f6;
+	padding-bottom: 20px;
+}
+.item{
+	border-radius: 15px;
+	width: 220px;
+	background-color: #fff;
+	border: 1px #c1c1c1 solid;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.itemframe{
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.item:hover{
+	border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.itemimgframe{
+	float: none;
+    height: 135px;
+    margin: 0 auto;
+    width: 135px;
+}
+.itemimg{
+	position: relative;
+    display: inline-block;
+	height: 135px;
+    width: 135px;
+}
+.itemtitleframe{
+	height: 43px;
+	margin-top: 12px;
+	text-align: center;
+}
+.itemtitle{
+	line-height: 20px;
+}
+.itempriceframe{
+	text-align: center;
+	margin-top: 12px;
+}
+.itemprice{
+	font-weight: bold;
+}
+.itemamount{
+	border-radius: 15px;
+	margin: 0;
+	width: 45%;
+	height: 40px;
+	display: inline-block;
+	border: 1px #c1c1c1 solid;
+}
+.itemamount:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.additembtn{
+	cursor: pointer;
+	float: right;
+	border-radius: 15px;
+	border: 0;
+	background-color: #00b7ff;
+	width: 45%;
+	color: #fff;
+	font-size: 16px;
+	padding: 1px;
+	height: 40px;
+	line-height: 15px;
+}
+.additembtn:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.additemframe{
+	margin-top: 12px;
+	border: 0px;
+}
+.maincontent{
+	width: calc(100% - 260px);
+    padding-bottom: 20px;
+}
+.sidebar{
+	width: 260px;
+	position: sticky;
+    top: 0;
+}
+#basketview{
+	height: 100vh;
+	position: sticky;
+	top: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background-color: #ebebeb;
+	z-index: 1;
+}
+#minibasketviewheader{
+	padding: 20px;
+	height: 120px;
+	border: 1px #c1c1c1 solid;
+    border-top: 0;
+	background-color: white;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+.miniitemview{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 15px;
+	border: 1px #c1c1c1 solid;
+	box-sizing: border-box;
+	padding: 10px;
+	height: 87px;
+	width: 96%;
+	background-color: white;
+}
+.miniviewprice{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.miniviewitemframe{
+	height: 100%;
+	position: relative;
+}
+.miniviewimageframe{
+	float: left;
+	height: 66px;	
+	width: 66px;
+}
+.miniviewimage{
+	height: 100%;	
+	width: 100%;
+}
+.miniitemnameframe{
+    margin-top: 9px;
+    line-height: 15px;
+    height: 42px;
+    width: 87px;
+    overflow: hidden;
+    display:inline-block;
+}
+.miniitemname{
+	font-size: 13px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	top: 15%;
+	height: 45px;
+	width: 100%;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.miniitemremove{
+	text-align: center;
+	padding: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	margin: 0;
+}
+.miniitemremovebtn{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+}
+.miniitemremovebtnx{
+	color: #4286f4;
+	font-weight: bold;
+	margin-left: 1.5px;
+}
+.miniitemminus{
+	text-align: center;
+	padding: 0;
+	cursor: pointer;
+	float: left;
+	width: 20px;
+	bottom: 0;
+	height: 20px;
+	background-color: #fff;
+	margin: 0;
+	position: absolute;
+}
+.choosetimetable td{
+	text-align: center;
+}
+.miniitemadd{
+	text-align: center;
+	padding: 0;
+	cursor: pointer;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	margin: 0;
+}
+.miniviewamount{
+	width: 20px;
+	position: absolute;
+	top: 36%;
+	left: 0;
+	text-align: center;
+}
+.selecttimeframe{
+	box-sizing: border-box;
+	padding: 20px;
+	max-width: calc(100% - 50px);
+	display: table;
+	margin:  0 auto;
+}
+.choosetimetable{
+    max-width: 950px;
+	padding-top: 20px;
+	width: 100%;
+	table-layout: fixed;
+	border-spacing: 10px;
+}
+#timeslotavaliable{
+	line-height: 24px;
+	height: 45px;
+}
+#slotselected{
+	line-height: 24px;
+	height: 45px;
+}
+.timeslotbtn{
+	border-radius: 25px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	background-color: #00b7ff;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	font-weight: 500;
+}
+.timeslotbtn:focus { 
+    outline: none;
+    border: 0;
+}
+.tabletimes{
+	font-size: 17px;
+	color: black;
+	font-weight: normal;
+}
+.timeunavalibletag{
+	border-radius: 25px;
+	font-family: Helvetica,Arial,sans-serif;
+	background-color: #ccc;
+	color: black;
+	border: 0;
+	width: 100%;
+	height: 100%;
+	font-weight: 500;
+	padding: 12px 15px;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 13px;
+}
+.timeslotunavaliable{
+	line-height: 24px;
+	height: 45px;
+	text-align: center;
+}
+#timeslotselected{
+	border-radius: 25px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	background-color: #337690;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	font-weight: 500;
+}
+#timeslotselected:focus { 
+    outline: none;
+    border: 0;
+}
+#itemsuggest{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    display: none;
+    text-align: left;
+    max-width: 235px;
+    background-color: #fff;
+    position: fixed;
+    left: 404px;
+    z-index: 999999;
+    box-shadow: 0 0 15px 1px rgba(0,0,0,0.2);
+}
+#searchbox{
+    width: 265px; 
+    border: 0px;
+}
+.searchdiv{
+    height: 100px;
+    display: inline-block;
+    width: 383px;
+}
+.itemtag{
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.filtermenubackground{
+    box-shadow: 0 5px 7px 0 rgba(30,30,30,0.07);
+    background: #fff;
+    padding: 0;
+    position: relative;
+    font-size: 1.1em;
+    z-index: 999;
+}
+#baskettotal{
+    float: right; 
+    font-weight: bold;
+}
+.filtermenuinner{
+    max-width: 1241px;
+    margin: auto;
+    display: table;
+    width: 100%;
+    height: 70px;
+    overflow: visible;
+    padding-left: 2px;
+}
+.filtermenuinner .filter{
+    text-align: center;
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #797d7f;
+}
+.filtersort label{
+    font-weight: 400;
+    color: #666;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.1;
+}
+.filter select{
+    color: #797c7f;
+    margin-left: 5px;
+    font-size: 1.05em;
+    letter-spacing: normal;
+    padding: 3px;
+    min-width: auto;
+}
+.pagenum ul {
+    display: inline-table;
+    height: 30px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ececec;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.pagenum ul li {
+    list-style: none;
+    float: none;
+    display: table-cell;
+}
+.pagenum ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    color: #a4a8aa;
+    padding: 0 12px;
+    border-right: 1px solid #ececec;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    font-size: 12px;
+}
+.pagenum ul li.current a, .prodpag ul li.current a:hover {
+    background: #f6f6f6;
+    color: #222323;
+}
+.checkoutbasket{
+    padding: 0 5% 0 5%;
+}
+.baskettable{
+    width: 100%;
+    max-width: 950px;
+    margin: 30px auto;
+    border-collapse: collapse; 
+}
+.baskettable thead{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.thitemimg{
+    width: 30px;
+}
+.thitemname{
+    text-align: left;
+}
+.thitemprice{
+    width: 70px;
+}
+.thitemqty{
+    width: 90px;
+}
+.thremove{
+    width: 48px;
+}
+.thtotal{
+    width: 65px;
+}
+.baskettable th{
+    border-top: 1px solid #cbcdcf;
+}
+.baskettable tbody td,.baskettable thead th{
+    vertical-align: middle;
+    padding: 9px 5px 7px 5px;
+    border-bottom: 1px solid #cbcdcf;
+}
+.baskettable tfoot td{
+    vertical-align: middle;
+    padding: 9px 5px 7px 5px;
+}
+.tablebasketitemimg{
+    min-width: 30px;
+}
+.tablebasketitemname{
+    text-align: left;
+    color: #434647;
+    letter-spacing: 0.03em;
+    font-size: 1.0em;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.tablebasketitemprice{
+    text-align: center;
+}
+.tablebasketitemremove{
+    text-align: center;
+}
+.tablebasketitemtotalprice{
+    text-align: center;
+}
+.tablebasketitemqty{
+    text-align: center;
+}
+.baskettable tr{
+    display: table-row;
+    position: relative;
+}
+.checkoutsubtitle{
+    
+}
+#timeslotoverview{
+}
+.overviewdata{
+    padding: 20px;
+}
+.overview{
+    text-align: center;
+    padding: 30px;
+}
+.subtitle{
+    text-align: center;
+}
+.hidden{
+    display: none!important;
+}
+.verifytitle{
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+.verifypagecontent{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    max-width: 1241px;
+	width: 100%;
+	margin: 0 auto;
+	background: #f6f6f6;
+}
+.verifybox{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-top: 10vh;
+}
+.verifytext{
+    margin: 0 auto;
+    padding: 20px;
+}
+.verifybuttons{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#changeemailbtn{
+    margin-right: 5%;
+    margin-left: 5%;
+    cursor: pointer;
+	border-radius: 15px;
+	border: 0;
+	background-color: #00b7ff;
+	width: 40%;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	line-height: 15px;
+}
+#resendemailbtn{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+    cursor: pointer;
+	border-radius: 15px;
+	border: 0;
+	background-color: #00b7ff;
+	width: 40%;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+}
+.accountinfo{
+    box-shadow: 0px 3px 15px -1px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 800px;
+    padding: 35px;
+    margin: 0 auto;
+    background: white;
+}
+.accounttextinput{
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    padding: 7px 38px 6px 8px;
+    border: 1px solid #bbb;
+}
+.accountpagecontent{
+    left: 0;
+    right: 0;
+    height: 100vh;
+    position: fixed;
+    padding-top: 30px;
+	max-width: 1241px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	background: #f6f6f6;
+}
+.accountinfo p{
+    padding: 5px 0 5px 0;
+}
+.accountbtn{
+    text-align: center;
+}
+#updateaccountinfo{
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    background-color: #00b7ff;
+    width: 45%;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 15px;
+}
+.accountinfo label {
+    padding: 5px 0 5px 0;
+    display: block;
+    margin-bottom: 4px;
+    font-size: 1.1em;
+    line-height: 145%;
+    font-weight: 700;
+    color: black;
+}
+.account_menu{
+	margin: 0 auto;
+	height: 65px;
+	display: table;
+}
+.account_item:hover ul {display: block;}
+
+.account_out{
+    box-shadow: 0px 5px 7px 0px rgba(30,30,30,0.07);
+}
+.account_item ul{
+    display: none;
+	text-align: left;
+	width: 225px;
+	background-color: #fff;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 999999;
+	padding: 20px;
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.2);
+}
+.account_item ul li a{
+	font-size: 0.9em;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	line-height: 1.3;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	color: #0093d8;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.account_item{
+    cursor: pointer;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+.account_title{
+    max-width: 100px;
+    height: 65px;
+    padding: 0 11px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.orderstable{
+    width: 100%;
+    max-width: 950px;
+    margin: 30px auto;
+    border-collapse: collapse; 
+}
+.orderstable thead{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.thorderid{
+    text-align: left;
+    width: 180px;
+}
+.thordertimeslot{
+    width: 200px;
+    text-align: left;
+}
+.thorderdateordered{
+    text-align: left;
+    width: 140px;
+}
+.thordertimeordered{
+    text-align: left;
+    width: 120px;
+}
+.thorderstatus{
+    width: 100px;
+}
+.orderstable th{
+    border-top: 1px solid #cbcdcf;
+}
+.orderstable tbody td,.orderstable thead th{
+    vertical-align: middle;
+    padding: 9px 5px 7px 5px;
+    border-bottom: 1px solid #cbcdcf;
+}
+.orderstable tfoot td{
+    vertical-align: middle;
+    padding: 9px 5px 7px 5px;
+}
+.tableorderid{
+    text-align: left;
+    color: #434647;
+    letter-spacing: 0.03em;
+    font-size: 1.0em;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.tableordertimeslot{
+    
+}
+.tableorderdate{
+    
+}
+.tableordertime{
+
+}
+.tableordertotal{
+    text-align: center;
+}
+.tableorderstatus{
+    text-align: center;
+}
+.orderstable tr{
+    display: table-row;
+    position: relative;
+}
+.orderhistory{
+    margin-top: 40px;
+}
+.tableordercancel{
+    text-align: center;
+}
+.cancelorderbtn{
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0;
+    width: 100%;
+    background-color: #00b7ff;
+    color: #fff;
+    font-size: 16px;
+    padding: 1px;
+    height: 25px;
+    line-height: 15px;
+}
+.thcancel{
+    width: 80px;
+}
+footer{
+    z-index: 999;
+    border-top: 5px solid rgba(30,30,30,0.07);
+}
